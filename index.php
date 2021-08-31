@@ -83,7 +83,7 @@ if (file_exists('LookingGlass/Config.php')) {
         </div>
       </header> -->
   <header class="header">
-    <div class="header-absoulate">
+    <div class="header-absoulate bg-blue-700">
       <div class="main-header">
         <div class="container">
           <div class="row align-items-center">
@@ -133,7 +133,7 @@ if (file_exists('LookingGlass/Config.php')) {
       </div>
     </div>
   </header>
-  <div class="container bg-blue-700">
+  <div class="mt-20 container bg-blue-700">
 
     <!-- Network Information -->
     <section id="information">
