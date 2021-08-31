@@ -70,7 +70,7 @@ if (file_exists('LookingGlass/Config.php')) {
 
 </head>
 
-<body class="pt-0">
+<body>
   <!-- Container -->
 
   <!-- Header -->
@@ -133,7 +133,7 @@ if (file_exists('LookingGlass/Config.php')) {
       </div>
     </div>
   </header>
-  <div class="mt-20 bg-blue-700 flex justify-center w-full">
+  <div class="mt-20 bg-blue-700">
 
     <!-- Network Information -->
     <section id="information">
