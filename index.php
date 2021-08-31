@@ -137,7 +137,7 @@ if (file_exists('LookingGlass/Config.php')) {
 
     <!-- Network Information -->
     <section id="information">
-      <div class="row justfy-center">
+      <div class="row justify-center">
         <div class="span12">
           <div class="well">
             <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
