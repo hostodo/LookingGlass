@@ -133,7 +133,7 @@ if (file_exists('LookingGlass/Config.php')) {
       </div>
     </div>
   </header>
-  <div class="pt-20 bg-blue-700 text-gray-800">
+  <div class="pt-40 bg-blue-700 text-gray-800">
 
     <!-- Network Information -->
     <section id="information">
@@ -204,14 +204,6 @@ if (file_exists('LookingGlass/Config.php')) {
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer nohighlight">
-      <p class="pull-right">
-        <a href="#">Back to top</a>
-      </p>
-      <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
-    </footer>
 
   </div><!-- /container -->
 
