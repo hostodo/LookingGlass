@@ -59,7 +59,7 @@ if (file_exists('LookingGlass/Config.php')) {
   <link rel="shortcut icon" type="image/png" href="https://hostodo.com/img/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400%7CPoppins:400,400i,500,700">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
-  <link rel="stylesheet" href="https://hostodo.com/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
   <link rel="stylesheet" href="https://hostodo.com/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://hostodo.com/plugins/swiper/swiper.min.css">
   <link rel="stylesheet" href="https://hostodo.com/plugins/magnific-popup/magnific-popup.min.css">
