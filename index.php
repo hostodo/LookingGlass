@@ -123,10 +123,6 @@ if (file_exists('LookingGlass/Config.php')) {
                 </div>
               </nav>
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-3">
-              <div class="register-button"> <a class="btn no-pad btn-transparent btn-block" href="https://hostodo.com/portal/login.php">
-                  <span>Login</span> </a> </div>
-            </div>
           </div>
         </div>
       </div>
