@@ -133,7 +133,7 @@ if (file_exists('LookingGlass/Config.php')) {
       </div>
     </div>
   </header>
-  <div class="pt-40 bg-blue-700 text-gray-800">
+  <div class="pt-32 text-gray-800">
 
     <!-- Network Information -->
     <section id="information">
