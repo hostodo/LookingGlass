@@ -56,7 +56,7 @@ if (file_exists('LookingGlass/Config.php')) {
 
   <!-- Styles -->
   <link href="assets/css/<?php echo $theme; ?>.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="https://hostodo.com/img/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400%7CPoppins:400,400i,500,700">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
   <link rel="stylesheet" href="https://hostodo.com/css/fontawesome-all.min.css">
@@ -82,7 +82,7 @@ if (file_exists('LookingGlass/Config.php')) {
           </div>
         </div>
       </header> -->
-  <div class="container">
+  <div class="container bg-blue-700">
 
     <header class="header">
       <div class="header-absoulate">
