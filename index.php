@@ -93,12 +93,12 @@ if (file_exists('LookingGlass/Config.php')) {
             <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-2">
               <nav>
                 <div class='header-menu'>
-                  <ul>
+                  <ul class="list-disc">
                     <li><a href='https://hostodo.com'>Home</a></li>
                     <li><a href="http://mia.hostodo.com">Miami, FL</a></li>
                     <li><a href="http://lv.hostodo.com">Las Vegas, NV</a></li>
                     <li> <a href='#'>Links <i class=""></i></a>
-                      <ul class="list-disc">
+                      <ul>
                         <li>
                           <p><a href="https://status.hostodo.com">Network Status</a></p>
                         </li>
