@@ -82,134 +82,136 @@ if (file_exists('LookingGlass/Config.php')) {
           </div>
         </div>
       </header> -->
-  <header class="header">
-    <div class="header-absoulate">
-      <div class="main-header">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-3 col-lg-2 col-md-3 col-sm-5 col-7">
-              <div class="logo"> <a href="/"> <img data-rjs="2" src="img/logo-white.png" alt="Hostodo"> <img data-rjs="2" src="img/logo-blue.png" alt="Hostodo"> </a> </div>
-            </div>
-            <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-2">
-              <nav>
-                <div class='header-menu'>
-                  <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href="/nvme-kvm">NVMe KVM</a></li>
-                    <li><a href="/ssd-kvm">Standard KVM</a></li>
-                    <li><a class="font-bold" href="/sale">SALE</a></li>
-                    <li> <a href='#'>Links <i class="fas fa-caret-down"></i></a>
-                      <ul>
-                        <li>
-                          <p><a href="https://status.hostodo.com">Network Status</a></p>
-                        </li>
-                        <li>
-                          <p><a href="/discord">Community Discord</a></p>
-                        </li>
-                        <li>
-                          <p><a target="_blank" href="/affiliate-program">Affiliate Program</a></p>
-                        </li>
-                        <li>
-                          <p><a target="_blank" href="https://vpscp.hostodo.com">VPS Control Panel</a></p>
-                        </li>
-                        <li>
-                          <p><a target="_blank" href="https://hostodo.com/portal">Billing Portal</a></p>
-                        </li>
-                        <li>
-                          <p><a target="_blank" href="https://hostodo.com/portal/knowledgebase.php?action=displayarticle&id=1">Terms of Service</a></p>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-3">
-              <div class="register-button"> <a class="btn no-pad btn-transparent btn-block" href="https://hostodo.com/portal/login.php">
-                  <span>Login</span> </a> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- Network Information -->
-  <section id="information">
-    <div class="row">
-      <div class="span12">
-        <div class="well">
-          <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
-          <p>Server Location: <b><?php echo $serverLocation; ?></b></p>
-          <div style="margin-left: 10px;">
-            <p>Test IPv4: <?php echo $ipv4; ?></p>
-            <p><?php if (!empty($ipv6)) {
-                  echo 'Test IPv6: ', $ipv6;
-                } ?></p>
-            <p>Test files: <?php
-                            foreach ($testFiles as $val) {
-                              echo "<a href=\"{$val}.test\" id=\"testfile\">{$val}</a> ";
-                            }
-                            ?></p>
-          </div>
-          <p>Your IP Address: <b><a href="#tests" id="userip"><?php echo $_SERVER['REMOTE_ADDR']; ?></a></b></p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div class="container">
 
-  <!-- Network Tests -->
-  <section id="tests">
-    <div class="row">
-      <div class="span12">
-        <form class="well form-inline" id="networktest" action="#results" method="post">
-          <fieldset>
-            <span id="legend">Network tests</span>
-            <div id="hosterror" class="control-group">
-              <div class="controls">
-                <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+    <header class="header">
+      <div class="header-absoulate">
+        <div class="main-header">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-3 col-lg-2 col-md-3 col-sm-5 col-7">
+                <div class="logo"> <a href="/"> <img data-rjs="2" src="img/logo-white.png" alt="Hostodo"> <img data-rjs="2" src="img/logo-blue.png" alt="Hostodo"> </a> </div>
+              </div>
+              <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-2">
+                <nav>
+                  <div class='header-menu'>
+                    <ul>
+                      <li><a href='/'>Home</a></li>
+                      <li><a href="/nvme-kvm">NVMe KVM</a></li>
+                      <li><a href="/ssd-kvm">Standard KVM</a></li>
+                      <li><a class="font-bold" href="/sale">SALE</a></li>
+                      <li> <a href='#'>Links <i class="fas fa-caret-down"></i></a>
+                        <ul>
+                          <li>
+                            <p><a href="https://status.hostodo.com">Network Status</a></p>
+                          </li>
+                          <li>
+                            <p><a href="/discord">Community Discord</a></p>
+                          </li>
+                          <li>
+                            <p><a target="_blank" href="/affiliate-program">Affiliate Program</a></p>
+                          </li>
+                          <li>
+                            <p><a target="_blank" href="https://vpscp.hostodo.com">VPS Control Panel</a></p>
+                          </li>
+                          <li>
+                            <p><a target="_blank" href="https://hostodo.com/portal">Billing Portal</a></p>
+                          </li>
+                          <li>
+                            <p><a target="_blank" href="https://hostodo.com/portal/knowledgebase.php?action=displayarticle&id=1">Terms of Service</a></p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-3">
+                <div class="register-button"> <a class="btn no-pad btn-transparent btn-block" href="https://hostodo.com/portal/login.php">
+                    <span>Login</span> </a> </div>
               </div>
             </div>
-            <select name="cmd" class="input-medium" style="margin-left: 5px;">
-              <option value="host">host</option>
-              <option value="mtr">mtr</option>
-              <?php if (!empty($ipv6)) {
-                echo '<option value="mtr6">mtr6</option>';
-              } ?>
-              <option value="ping" selected="selected">ping</option>
-              <?php if (!empty($ipv6)) {
-                echo '<option value="ping6">ping6</option>';
-              } ?>
-              <option value="traceroute">traceroute</option>
-              <?php if (!empty($ipv6)) {
-                echo '<option value="traceroute6">traceroute6</option>';
-              } ?>
-            </select>
-            <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
-          </fieldset>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- Results -->
-  <section id="results" style="display:none">
-    <div class="row">
-      <div class="span12">
-        <div class="well">
-          <span id="legend">Results</span>
-          <pre id="response" style="display:none"></pre>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
+    <!-- Network Information -->
+    <section id="information">
+      <div class="row">
+        <div class="span12">
+          <div class="well">
+            <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
+            <p>Server Location: <b><?php echo $serverLocation; ?></b></p>
+            <div style="margin-left: 10px;">
+              <p>Test IPv4: <?php echo $ipv4; ?></p>
+              <p><?php if (!empty($ipv6)) {
+                    echo 'Test IPv6: ', $ipv6;
+                  } ?></p>
+              <p>Test files: <?php
+                              foreach ($testFiles as $val) {
+                                echo "<a href=\"{$val}.test\" id=\"testfile\">{$val}</a> ";
+                              }
+                              ?></p>
+            </div>
+            <p>Your IP Address: <b><a href="#tests" id="userip"><?php echo $_SERVER['REMOTE_ADDR']; ?></a></b></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer nohighlight">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
-    </p>
-    <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
-  </footer>
+    <!-- Network Tests -->
+    <section id="tests">
+      <div class="row">
+        <div class="span12">
+          <form class="well form-inline" id="networktest" action="#results" method="post">
+            <fieldset>
+              <span id="legend">Network tests</span>
+              <div id="hosterror" class="control-group">
+                <div class="controls">
+                  <input id="host" name="host" type="text" class="input-large" placeholder="Host or IP address">
+                </div>
+              </div>
+              <select name="cmd" class="input-medium" style="margin-left: 5px;">
+                <option value="host">host</option>
+                <option value="mtr">mtr</option>
+                <?php if (!empty($ipv6)) {
+                  echo '<option value="mtr6">mtr6</option>';
+                } ?>
+                <option value="ping" selected="selected">ping</option>
+                <?php if (!empty($ipv6)) {
+                  echo '<option value="ping6">ping6</option>';
+                } ?>
+                <option value="traceroute">traceroute</option>
+                <?php if (!empty($ipv6)) {
+                  echo '<option value="traceroute6">traceroute6</option>';
+                } ?>
+              </select>
+              <button type="submit" id="submit" name="submit" class="btn btn-primary" style="margin-left: 10px;">Run Test</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" style="display:none">
+      <div class="row">
+        <div class="span12">
+          <div class="well">
+            <span id="legend">Results</span>
+            <pre id="response" style="display:none"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer nohighlight">
+      <p class="pull-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+    </footer>
 
   </div><!-- /container -->
 
