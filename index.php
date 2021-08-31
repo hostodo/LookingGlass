@@ -82,59 +82,59 @@ if (file_exists('LookingGlass/Config.php')) {
           </div>
         </div>
       </header> -->
-  <div class="container bg-blue-700">
-
-    <header class="header">
-      <div class="header-absoulate">
-        <div class="main-header">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-3 col-lg-2 col-md-3 col-sm-5 col-7">
-                <div class="logo"> <a href="/"> <img data-rjs="2" src="https://hostodo.com/img/logo-white.png" alt="Hostodo"> <img data-rjs="2" src="https://hostodo.com/img/logo-blue.png" alt="Hostodo"> </a> </div>
-              </div>
-              <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-2">
-                <nav>
-                  <div class='header-menu'>
-                    <ul>
-                      <li><a href='/'>Home</a></li>
-                      <li><a href="/nvme-kvm">NVMe KVM</a></li>
-                      <li><a href="/ssd-kvm">Standard KVM</a></li>
-                      <li><a class="font-bold" href="/sale">SALE</a></li>
-                      <li> <a href='#'>Links <i class="fas fa-caret-down"></i></a>
-                        <ul>
-                          <li>
-                            <p><a href="https://status.hostodo.com">Network Status</a></p>
-                          </li>
-                          <li>
-                            <p><a href="/discord">Community Discord</a></p>
-                          </li>
-                          <li>
-                            <p><a target="_blank" href="/affiliate-program">Affiliate Program</a></p>
-                          </li>
-                          <li>
-                            <p><a target="_blank" href="https://vpscp.hostodo.com">VPS Control Panel</a></p>
-                          </li>
-                          <li>
-                            <p><a target="_blank" href="https://hostodo.com/portal">Billing Portal</a></p>
-                          </li>
-                          <li>
-                            <p><a target="_blank" href="https://hostodo.com/portal/knowledgebase.php?action=displayarticle&id=1">Terms of Service</a></p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-3">
-                <div class="register-button"> <a class="btn no-pad btn-transparent btn-block" href="https://hostodo.com/portal/login.php">
-                    <span>Login</span> </a> </div>
-              </div>
+  <header class="header">
+    <div class="header-absoulate">
+      <div class="main-header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-2 col-md-3 col-sm-5 col-7">
+              <div class="logo"> <a href="/"> <img data-rjs="2" src="https://hostodo.com/img/logo-white.png" alt="Hostodo"> <img data-rjs="2" src="https://hostodo.com/img/logo-blue.png" alt="Hostodo"> </a> </div>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-2">
+              <nav>
+                <div class='header-menu'>
+                  <ul>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href="/nvme-kvm">NVMe KVM</a></li>
+                    <li><a href="/ssd-kvm">Standard KVM</a></li>
+                    <li><a class="font-bold" href="/sale">SALE</a></li>
+                    <li> <a href='#'>Links <i class="fas fa-caret-down"></i></a>
+                      <ul>
+                        <li>
+                          <p><a href="https://status.hostodo.com">Network Status</a></p>
+                        </li>
+                        <li>
+                          <p><a href="/discord">Community Discord</a></p>
+                        </li>
+                        <li>
+                          <p><a target="_blank" href="/affiliate-program">Affiliate Program</a></p>
+                        </li>
+                        <li>
+                          <p><a target="_blank" href="https://vpscp.hostodo.com">VPS Control Panel</a></p>
+                        </li>
+                        <li>
+                          <p><a target="_blank" href="https://hostodo.com/portal">Billing Portal</a></p>
+                        </li>
+                        <li>
+                          <p><a target="_blank" href="https://hostodo.com/portal/knowledgebase.php?action=displayarticle&id=1">Terms of Service</a></p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-3">
+              <div class="register-button"> <a class="btn no-pad btn-transparent btn-block" href="https://hostodo.com/portal/login.php">
+                  <span>Login</span> </a> </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+  <div class="container bg-blue-700">
+
     <!-- Network Information -->
     <section id="information">
       <div class="row">
