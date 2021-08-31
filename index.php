@@ -135,6 +135,22 @@ if (file_exists('LookingGlass/Config.php')) {
         </div>
       </div>
     </header>
+    <section class="main-banner bg-blue-700 bg-rotate position-relative d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10">
+            <div class="text-center text-white banner-content">
+              <h2>Powerful Virtual Machines</h2>
+              <p>We offer easy to deploy, easy to manage, and easy to afford virtual machines.</p>
+              <ul class="list-inline">
+                <li><a class="btn btn-transparent" href="#why-us">Why Hostodo?</a></li>
+                <li><a class="btn btn-transparent" href="#plans">See Plans</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><span class="bg-gradient-to-l from-blue-500 to-blue-600 goDown"><i class="fas fa-arrow-down bounce"></i></span>
+      </div>
+    </section>
     <!-- Network Information -->
     <section id="information">
       <div class="row">
