@@ -94,10 +94,9 @@ if (file_exists('LookingGlass/Config.php')) {
               <nav>
                 <div class='header-menu'>
                   <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href="/nvme-kvm">NVMe KVM</a></li>
-                    <li><a href="/ssd-kvm">Standard KVM</a></li>
-                    <li><a class="font-bold" href="/sale">SALE</a></li>
+                    <li><a href='https://hostodo.com'>Home</a></li>
+                    <li><a href="http://mia.hostodo.com">Miami, FL</a></li>
+                    <li><a href="http://lv.hostodo.com">Las Vegas, NV</a></li>
                     <li> <a href='#'>Links <i class=""></i></a>
                       <ul class="list-disc">
                         <li>
