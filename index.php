@@ -98,7 +98,7 @@ if (file_exists('LookingGlass/Config.php')) {
                     <li><a href="http://wa.hostodo.com">Spokane, WA Network</a></li>
                     <li><a href="http://mia.hostodo.com">Miami, FL Network</a></li>
                     <li><a href="http://lv.hostodo.com">Las Vegas, NV Network</a></li>
-                    <li> <a href='#'>Links <i class=""></i></a>
+                    <!-- <li> <a href='#'>Links <i class=""></i></a>
                       <ul>
                         <li>
                           <p><a href="https://status.hostodo.com">Network Status</a></p>
@@ -119,7 +119,7 @@ if (file_exists('LookingGlass/Config.php')) {
                           <p><a target="_blank" href="https://hostodo.com/portal/knowledgebase.php?action=displayarticle&id=1">Terms of Service</a></p>
                         </li>
                       </ul>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </nav>
