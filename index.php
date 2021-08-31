@@ -55,7 +55,7 @@ if (file_exists('LookingGlass/Config.php')) {
     <![endif]-->
 
   <!-- Styles -->
-  <link href="assets/css/<?php echo $theme; ?>.min.css" rel="stylesheet">
+  <link href="assets/css/<?php echo $theme; ?>.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="https://hostodo.com/img/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400%7CPoppins:400,400i,500,700">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
@@ -133,7 +133,7 @@ if (file_exists('LookingGlass/Config.php')) {
       </div>
     </div>
   </header>
-  <div class="mt-20 bg-blue-700">
+  <div class="pt-20 bg-blue-700">
 
     <!-- Network Information -->
     <section id="information">

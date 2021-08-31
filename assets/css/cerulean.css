@@ -15,10 +15,6 @@ body {
   word-wrap: normal;
 }
 /* Header */
-.header {
-  position: relative;
-  margin-bottom: 10px;
-}
 .header h1 {
   margin-bottom: 9px;
   letter-spacing: -1px;
