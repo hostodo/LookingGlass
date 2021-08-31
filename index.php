@@ -98,8 +98,8 @@ if (file_exists('LookingGlass/Config.php')) {
                     <li><a href="/nvme-kvm">NVMe KVM</a></li>
                     <li><a href="/ssd-kvm">Standard KVM</a></li>
                     <li><a class="font-bold" href="/sale">SALE</a></li>
-                    <li> <a href='#'>Links <i class="fas fa-caret-down"></i></a>
-                      <ul>
+                    <li> <a href='#'>Links <i class=""></i></a>
+                      <ul class="list-disc">
                         <li>
                           <p><a href="https://status.hostodo.com">Network Status</a></p>
                         </li>
