@@ -94,9 +94,9 @@ if (file_exists('LookingGlass/Config.php')) {
               <nav>
                 <div class='header-menu'>
                   <ul class="list-disc">
-                    <li><a href='https://hostodo.com'>Home</a></li>
-                    <li><a href="http://mia.hostodo.com">Miami, FL</a></li>
-                    <li><a href="http://lv.hostodo.com">Las Vegas, NV</a></li>
+                    <li><a href='https://hostodo.com'>Hostodo.com</a></li>
+                    <li><a href="http://mia.hostodo.com">Miami, FL Looking Glass</a></li>
+                    <li><a href="http://lv.hostodo.com">Las Vegas, NV Looking Glass</a></li>
                     <li> <a href='#'>Links <i class=""></i></a>
                       <ul>
                         <li>
