@@ -72,7 +72,6 @@ if (file_exists('LookingGlass/Config.php')) {
 
 <body>
   <!-- Container -->
-  <div class="preLoader"> <span class="spin"></span> </div>
 
   <!-- Header -->
 
