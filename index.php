@@ -55,6 +55,7 @@ if (file_exists('LookingGlass/Config.php')) {
     <![endif]-->
 
   <!-- Styles -->
+  <link href="assets/css/<?php echo $theme; ?>.min.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400%7CPoppins:400,400i,500,700">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
@@ -134,22 +135,6 @@ if (file_exists('LookingGlass/Config.php')) {
         </div>
       </div>
     </header>
-    <section class="main-banner bg-blue-700 bg-rotate position-relative d-flex align-items-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8 col-lg-10">
-            <div class="text-center text-white banner-content">
-              <h2>Powerful Virtual Machines</h2>
-              <p>We offer easy to deploy, easy to manage, and easy to afford virtual machines.</p>
-              <ul class="list-inline">
-                <li><a class="btn btn-transparent" href="#why-us">Why Hostodo?</a></li>
-                <li><a class="btn btn-transparent" href="#plans">See Plans</a></li>
-              </ul>
-            </div>
-          </div>
-        </div><span class="bg-gradient-to-l from-blue-500 to-blue-600 goDown"><i class="fas fa-arrow-down bounce"></i></span>
-      </div>
-    </section>
     <!-- Network Information -->
     <section id="information">
       <div class="row">
