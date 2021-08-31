@@ -133,11 +133,11 @@ if (file_exists('LookingGlass/Config.php')) {
       </div>
     </div>
   </header>
-  <div class="pt-20 bg-blue-700">
+  <div class="pt-20 bg-blue-700 text-gray-800">
 
     <!-- Network Information -->
     <section id="information">
-      <div class="row">
+      <div class="row justfy-center">
         <div class="span12">
           <div class="well">
             <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
@@ -161,7 +161,7 @@ if (file_exists('LookingGlass/Config.php')) {
 
     <!-- Network Tests -->
     <section id="tests">
-      <div class="row">
+      <div class="row justify-center">
         <div class="span12">
           <form class="well form-inline" id="networktest" action="#results" method="post">
             <fieldset>
