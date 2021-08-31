@@ -217,6 +217,16 @@ if (file_exists('LookingGlass/Config.php')) {
   <script src="assets/js/jquery-1.11.2.min.js"></script>
   <script src="assets/js/LookingGlass.min.js"></script>
   <script src="assets/js/XMLHttpRequest.min.js"></script>
+  <script src="https://hostodo.com/js/jquery-3.2.1.min.js"></script>
+  <script src="https://hostodo.com/js/bootstrap.bundle.min.js"></script>
+  <script src="https://hostodo.com/plugins/swiper/swiper.min.js"></script>
+  <script src="https://hostodo.com/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="https://hostodo.com/plugins/parsley/parsley.min.js"></script>
+  <script src="https://hostodo.com/plugins/retinajs/retina.min.js"></script>
+  <script src="https://hostodo.com/plugins/waypoints/jquery.waypoints.min.js"></script>
+  <script src="https://hostodo.com/plugins/waypoints/sticky.min.js"></script>
+  <script src="https://hostodo.com/js/menu.js"></script>
+  <script src="https://hostodo.com/js/scripts.js"></script>
 </body>
 
 </html>
