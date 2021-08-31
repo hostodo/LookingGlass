@@ -90,7 +90,7 @@ if (file_exists('LookingGlass/Config.php')) {
             <div class="col-xl-3 col-lg-2 col-md-3 col-sm-5 col-7">
               <div class="logo"> <a href="/"> <img data-rjs="2" src="https://hostodo.com/img/logo-white.png" alt="Hostodo"> <img data-rjs="2" src="https://hostodo.com/img/logo-blue.png" alt="Hostodo"> </a> </div>
             </div>
-            <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-2">
+            <div class="col-xl-8 col-lg-8 col-md-6 col-sm-3 col-2">
               <nav>
                 <div class='header-menu'>
                   <ul class="">
