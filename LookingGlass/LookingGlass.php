@@ -1,4 +1,5 @@
 <?php
+
 /**
  * LookingGlass - User friendly PHP Looking Glass
  *
@@ -9,6 +10,7 @@
  * @license     http://opensource.org/licenses/MIT MIT License
  * @version     1.3.0
  */
+
 namespace Telephone;
 
 /**
@@ -84,7 +86,7 @@ class LookingGlass
     public function ping($host, $count = 4)
     {
         if ($host = $this->validate($host)) {
-            return $this->procExecute('ping -c' . $count . ' -w15', $host);
+            return $this->procExecute('ping -4  -c' . $count . ' -w15', $host);
         }
         return false;
     }
@@ -104,7 +106,8 @@ class LookingGlass
     public function ping6($host, $count = 4)
     {
         if ($host = $this->validate($host, 6)) {
-            return $this->procExecute('ping6 -c' . $count . ' -w15', $host);
+            $return = $this->procExecute('ping6 -c' . $count . ' -w15', $host);
+            return $return;
         }
         return false;
     }
@@ -229,7 +232,8 @@ class LookingGlass
                 // check for consecutive failed hops
                 if (strpos($str, '* * *') !== false) {
                     $fail++;
-                    if ($lastFail !== 'start'
+                    if (
+                        $lastFail !== 'start'
                         && ($traceCount - 1) === $lastFail
                         &&  $fail >= $failCount
                     ) {
@@ -269,7 +273,7 @@ class LookingGlass
             // use ps to get all the children of this process
             $pids = preg_split('/\s+/', `ps -o pid --no-heading --ppid $ppid`);
             // kill remaining processes
-            foreach($pids as $pid) {
+            foreach ($pids as $pid) {
                 if (is_numeric($pid)) {
                     posix_kill($pid, 9);
                 }
