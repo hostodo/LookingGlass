@@ -138,7 +138,7 @@ if (file_exists('LookingGlass/Config.php')) {
           <div class="well">
             <span id="legend">Network information</span><!-- IE/Safari dislike <legend> out of context -->
             <p>Server Location: <b><?php echo $serverLocation; ?></b></p>
-            <div style="margin-left: 10px;" class="font-mono">
+            <div style="margin-left: 10px;" class="font-mono pb-4">
               <p>Test IPv4: <span><?php echo $ipv4; ?></span></p>
               <p><?php if (!empty($ipv6)) {
                     echo 'Test IPv6: ', $ipv6;
