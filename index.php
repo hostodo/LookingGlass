@@ -44,10 +44,10 @@ if (file_exists('LookingGlass/Config.php')) {
 
 <head>
   <meta charset="utf-8">
-  <title><?php echo $serverLocation; ?> - Looking Glass</title>
+  <title><?php echo $serverLocation; ?> - Hostodo Network Test </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="LookingGlass - Open source PHP looking glass">
-  <meta name="author" content="Telephone">
+  <meta name="description" content="Hostodo network speed test tool, available for each location. Test the network before you buy, you won't be disappointed!">
+  <meta name="author" content="Hostodo">
 
   <!-- IE6-8 support of HTML elements -->
   <!--[if lt IE 9]>
