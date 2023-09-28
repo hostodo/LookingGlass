@@ -95,7 +95,7 @@ if (file_exists('LookingGlass/Config.php')) {
                 <div class='header-menu'>
                   <ul class="">
                     <li><a href='https://hostodo.com'>Hostodo.com</a></li>
-                    <li><a href="http://wa.hostodo.com">Spokane, WA Network</a></li>
+                    <li><a href="http://det01.hostodo.com">Detroit, MI Network</a></li>
                     <li><a href="http://mia.hostodo.com">Miami, FL Network</a></li>
                     <li><a href="http://lv.hostodo.com">Las Vegas, NV Network</a></li>
                     <!-- <li> <a href='#'>Links <i class=""></i></a>
@@ -191,11 +191,13 @@ if (file_exists('LookingGlass/Config.php')) {
 
     <!-- Results -->
     <section id="results" style="display:none">
-      <div class="row">
-        <div class="span12">
-          <div class="well">
-            <span id="legend">Results</span>
-            <pre id="response" style="display:none"></pre>
+      <div class="flex justify-center">
+        <div class="row">
+          <div class="span12">
+            <div class="well">
+              <span id="legend">Results</span>
+              <pre id="response" style="display:none"></pre>
+            </div>
           </div>
         </div>
       </div>
