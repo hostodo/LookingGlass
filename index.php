@@ -83,7 +83,7 @@ if (file_exists('LookingGlass/Config.php')) {
         </div>
       </header> -->
   <header class="header">
-    <div class="header-absoulate bg-blue-700">
+    <div class="header-absoulate bg-blue-500">
       <div class="main-header">
         <div class="container">
           <div class="row align-items-center">
@@ -96,7 +96,7 @@ if (file_exists('LookingGlass/Config.php')) {
                   <ul class="">
                     <li><a href='https://hostodo.com'>Hostodo.com</a></li>
                     <li><a href="http://det01.hostodo.com">Detroit, MI Network</a></li>
-                    <li><a href="http://mia.hostodo.com">Miami, FL Network</a></li>
+                    <li><a href="http://tpa.hostodo.com">Tampa, FL Network</a></li>
                     <li><a href="http://lv.hostodo.com">Las Vegas, NV Network</a></li>
                     <!-- <li> <a href='#'>Links <i class=""></i></a>
                       <ul>
